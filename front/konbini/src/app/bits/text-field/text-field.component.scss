@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Milky";
+    src: url("../../../assets/fonts/MilkyNice.otf");
+}
+
+input[type="text"]{
+    width: 35%;
+    height: 25px;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: "Milky";
+    font-size: 18px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: -70px;
+}
+
+.static {
+    position:absolute;
+    background: white;
+}
+  
+.static:hover {
+    opacity:0;
+}
