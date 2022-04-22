@@ -1,3 +1,5 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
 @font-face {
     font-family: "Milky";
     src: url("../../../assets/fonts/MilkyNice.otf");
@@ -13,17 +15,17 @@ input[type="text"]{
 }
 
 button {
-    background-color: transparent;
+    position: absolute;
+    border-radius: 20px;
     border: none;
+    top: 16px;
+    height: 30px;
     cursor: pointer;
-    margin: -70px;
+    background-color: transparent;
+    margin-left: -50px;
+    margin-top: -7px;
 }
 
-.static {
-    position:absolute;
-    background: white;
-}
-  
-.static:hover {
-    opacity:0;
+.wrap {
+    position: relative;
 }
