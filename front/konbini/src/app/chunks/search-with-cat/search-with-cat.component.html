@@ -1,0 +1,13 @@
+<div class="wrapper">
+    <div class="dropdown">
+        <button (mouseenter)="show=!show" (mouseleave)="show=!show">
+            <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+            <div id="dropdown_content" *ngIf="show">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </button>
+    </div>
+    <app-text-field></app-text-field>
+</div>

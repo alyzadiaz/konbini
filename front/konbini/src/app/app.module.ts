@@ -11,6 +11,8 @@ import { HeaderComponent } from './chunks/header/header.component';
 import { ImageButtonComponent } from './bits/image-button/image-button.component';
 import { TextButtonComponent } from './bits/text-button/text-button.component';
 import { TextFieldComponent } from './bits/text-field/text-field.component';
+import { SearchWithCatComponent } from './chunks/search-with-cat/search-with-cat.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -22,11 +24,13 @@ import { TextFieldComponent } from './bits/text-field/text-field.component';
     HeaderComponent,
     ImageButtonComponent,
     TextButtonComponent,
-    TextFieldComponent
+    TextFieldComponent,
+    SearchWithCatComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
