@@ -13,6 +13,7 @@ import { TextButtonComponent } from './bits/text-button/text-button.component';
 import { TextFieldComponent } from './bits/text-field/text-field.component';
 import { SearchWithCatComponent } from './chunks/search-with-cat/search-with-cat.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CarouselComponent } from './chunks/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ImageButtonComponent,
     TextButtonComponent,
     TextFieldComponent,
-    SearchWithCatComponent
+    SearchWithCatComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
