@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@font-face {
+    font-family: "Milky";
+    src: url("assets/fonts/MilkyNice.otf");
+}
+
+@font-face {
+    font-family: "Snacker";
+    src: url("assets/fonts/snacker.ttf");
+}
+
+button {
+    cursor: pointer;
+}
+
+body { 
+    margin: 0; 
+}
